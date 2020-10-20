@@ -16,10 +16,17 @@ Dibuat dengan bahasa Indonesia untuk mengakomodir para pengembang perangkat luna
     - [Profil Kontributor](#profil-kontributor)
 
 ## Konfigurasi Aplikasi
-Open source AutoFeedeng Machine ini adalah sebuah re.
+Projek ini menggunakan Node JS sebagai base utama.
+baca tentang Node.JS [Tautan](https://nodejs.org/en/).
+____
+Setelah itu untuk struktur projek atau framework node menggunakan Express.JS
+baca tentang Express.JS [Tautan](https://expressjs.com/).
 
 ## WIT.AI
 Open source AutoFeedeng Machine ini adalah sebuah re.
 
-## Profil Kontributor
+## Referensi
 Open source AutoFeedeng Machine ini adalah sebuah re.
+
+## Profil Kontributor
+ ### 1. Ismail Syababun Halim | [Linkedin](https://id.linkedin.com/in/ismail-syababun-halim-317003a3)
