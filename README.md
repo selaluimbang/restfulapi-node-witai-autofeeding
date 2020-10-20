@@ -11,7 +11,7 @@ Dibuat dengan bahasa Indonesia untuk mengakomodir para pengembang perangkat luna
     - [Dibuat dengan Bahasa 🇮🇩 Versi Indonesia](#dibuat-dengan-bahasa-id-versi-indonesia)
     - [Daftar Isi](#daftar-isi)
     - [Konfigurasi Aplikasi](#konfigurasi-aplikasi)
-    - [WIT.AI](#wit-ai)
+    - [WIT.AI](#witai)
     - [Referensi](#referensi)
     - [Profil Kontributor](#profil-kontributor)
 
@@ -53,31 +53,69 @@ Installasi Winston JS pada projek Node.JS menggunakan NPM
 ```
 npm install --save winston
 ```
-
-Berikut adalah dokumentasi repo Winston Logger : 
+Berikut adalah dokumentasi Repository Winston Logger : 
 [![GitHub repo Winston Logger](https://img.shields.io/badge/Repo-GitHub-green.svg)](https://github.com/winstonjs/winston)
 
 Bisa tonton cara penggunaan winston logger pada projek Node JS-mu pada tautan berikut : [
 Web Techvids - How to : Implement Winston logger in Nodejs](https://www.youtube.com/watch?v=dU6AmzCS60g&ab_channel=WebTechvids)
-
 ____
 #### 6. Body Parser
-
+Body Parser ini digunakan untuk mengambil dan memastikan kita bisa mengakses data inputan dari request. Misalkan sebagai param atau sebagai body.
+Installasi Body-Parser JS pada projek Node.JS menggunakan NPM
+```
+npm install --save body-parser
+```
+Berikut adalah dokumentasi Repository Body-Parser : 
+[![GitHub repo Winston Logger](https://img.shields.io/badge/Repo-GitHub-green.svg)](https://github.com/expressjs/body-parser)
 ____
 #### 7. Mongoose dan Mongo DB
+Dalam projek ini saya menggunakan MongoDB sebagai tempat saya menyimpan data. Data yang disimpan adalah data jam feeding dan kapan harus feed.
+
+Dokumentasi Mongo DB : [Mongo DB](https://www.mongodb.com/)
+Tautan bagaimana menggunakan Mongo DB di projek Node.JS [Dev Ed : Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial](https://www.youtube.com/watch?v=vjf774RKrLc&t=1159s)
+
+Mongoose [Tautan Dokumentasi](https://mongoosejs.com/) adalah sebuah modul untuk mempermudah objek modeling untuk projek Node.JS kamu.
+Installasi Mongoose JS pada projek Node.JS menggunakan NPM
+```
+npm install --save mongoose
+```
 ____
 #### 8. Webpack
+Nah disini juga saya menggunakan webpack, sebagai bundling projek temen-temen untuk menjaga keamanan aplikasi jika nanti teman-teman menggunakannya di server online teman-teman.
+Tautan untuk mengetahui webpack lebih lanjut : [Dokumentasi Webpack](https://webpack.js.org/)
 
+Installasi webpack pada projek Node.JS menggunakan NPM
+```
+npm install --save-dev webpack
+```
 ____
 #### 9. dotenv
+Yang terakhir disini saya menggunakan dotenv, sebagai modul untuk dapat mengakses file berakhiran .env
+untuk apa sih .env ini ? .env digunakan untuk menyimpan konfigurasi projek agar tidak dapat diketahui oleh orang lain dan mempermudah multiple developer dalam mengembangkan satu projek.
 
+Tautan untuk mengetauin webpack lebih lanjut : [![GitHub repo dotenv](https://img.shields.io/badge/Repo-GitHub-green.svg)](https://github.com/motdotla/dotenv#readme)
+Installasi dotenv pada projek Node.JS menggunakan NPM
+```
+npm install --save dotenv
+```
 ____
 Installasi Projek ini di komputer lokal kalian :
 
+1. Untuk installasi projek ini, teman-teman cukup install git [Tautan Git](https://git-scm.com/). Kemudian buatlah akun github teman-teman. Kemudian pull request.
 
+2. Setelah pull request, pastikan teman-teman sudah menginstall npm dan node.js
+Ketikkan pada terminal/cmd
+```
+npm install
+```
+3. Buat file .env dan isi dengan berikut :
+```
+WIT_TOKEN = *witToken*
+MONGO_URL = *nama mongo*
 
+```
 
-
+4. Buat Akun WIT.AI
 ____
 ## WIT.AI
 Open source AutoFeedeng Machine ini adalah sebuah re.
