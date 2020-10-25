@@ -114,14 +114,34 @@ WIT_TOKEN = *witToken*
 MONGO_URL = *nama mongo*
 
 ```
+4. Buat Akun WIT.AI dan panggil Node-Wit
+[Tautan Dokumentasi WIT-NODE](https://github.com/wit-ai/node-wit)
 
-4. Buat Akun WIT.AI
+```
+npm install --save node-wit
+```
 ____
 ## WIT.AI
-Open source AutoFeedeng Machine ini adalah sebuah re.
+Sebuah bot API yang digunakan untuk mempelajari intent dari sebuah kalimat. Di WIT.AI kita perlu sekali untuk membuat bot learning kita semakin baik dalam menterjemahkan maksud dari sebuah kalimat.
+
+Dokumentasi : [Tautan Dokumentasi WIT.AI](https://wit.ai/).
+
+1. Buat akun WIT.AI dengan akun facebook teman-teman.
+2. Buat apps dengan nama apps yang kalian inginkan.
+3. Pilih bahasa.
+4. Buat Intents.
+5. Buat Entities, jika ada variabel yang kalian butuhkan untuk ambil.
+6. Ajarkan bot dengan fitur understanding. Masukkan kalimat yang beraneka ragam dan masukkan ke intent mana.
+7. Implementasikan WIT.AI di aplikasi-mu dengan menggunakan WIT_TOKEN.
+8. Have fun!
 
 ## Referensi
-Open source AutoFeedeng Machine ini adalah sebuah re.
+Referensi Project : 
+1. [Example Bolierplate](https://github.com/javascript-indonesias/ExpressSimpleBoilerPlate)
+2. [Node WIT](https://github.com/wit-ai/node-wit)
 
 ## Profil Kontributor
  #### 1. Ismail Syababun Halim | [Linkedin](https://id.linkedin.com/in/ismail-syababun-halim-317003a3)
+
+## Video Breakthrough
+[Tautan Video](https://youtube.com)
