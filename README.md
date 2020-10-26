@@ -142,6 +142,6 @@ Referensi Project :
 
 ## Profil Kontributor
  #### 1. Ismail Syababun Halim | [Linkedin](https://id.linkedin.com/in/ismail-syababun-halim-317003a3)
-
+ Silahkan jika ingin berkontribusi.
 ## Video Breakthrough
-[Tautan Video](https://youtube.com)
+[Tautan Video](https://www.youtube.com/watch?v=3LjszK0kar0)
